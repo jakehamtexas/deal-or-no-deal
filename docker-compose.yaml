@@ -1,0 +1,8 @@
+include:
+  - path: docker-compose.dev.yaml
+
+services:
+  web:
+    build: .
+    ports:
+      - 3000:3000
